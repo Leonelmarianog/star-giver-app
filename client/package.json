@@ -31,7 +31,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch ./tools/mock-server/db.json"
+    "server": "json-server --watch ./tools/mock-server/db.json",
+    "cypress": "./node_modules/.bin/cypress open"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^9.0.0",
     "json-server": "^0.17.0"
   }
 }
